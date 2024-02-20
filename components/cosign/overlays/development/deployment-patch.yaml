@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cosign
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/cosign@sha256:7558e50cfda28f8fc00adc6ea0ff4d32d96a893913d72db844caee04e789b2f5
+        name: my-go
+        resources: {}
+status: {}
