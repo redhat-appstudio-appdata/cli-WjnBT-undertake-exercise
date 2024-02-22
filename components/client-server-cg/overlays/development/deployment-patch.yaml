@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: client-server-cg
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/client-server-cg@sha256:aa6fbea85bc573c585df27bc6bd7b08133861e969218958c8f65f1c4fa7848b5
+        name: my-go
+        resources: {}
+status: {}
