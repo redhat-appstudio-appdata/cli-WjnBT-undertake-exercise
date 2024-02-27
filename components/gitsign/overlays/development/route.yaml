@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: gitsign
     app.kubernetes.io/part-of: cli
-  name: gitsignvqer
+  name: gitsignhrht
 spec:
   path: /
   port:

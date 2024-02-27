@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/gitsign@sha256:a3416a65b31881d586762fcc07382b530a06985224dfc1be5ce4af3e78eca50c
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/gitsign@sha256:a1e1df10fb0e14ad14208b961c09e6c9b0fa22c0df11cb4e3f03639d17c63678
         name: my-go
         resources: {}
 status: {}
