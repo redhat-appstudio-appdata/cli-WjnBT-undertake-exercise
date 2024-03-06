@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: gitsign
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/gitsign@sha256:7d692719f2754638525d8ec67f4301c4cc7229ed5c0623fcb193a0e120427b9c
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/gitsign@sha256:6163f93aab72aed790b415b24955da40105b62c65d08f4a0d9df1570c89e2036
         name: my-go
         ports:
         - containerPort: 8081
