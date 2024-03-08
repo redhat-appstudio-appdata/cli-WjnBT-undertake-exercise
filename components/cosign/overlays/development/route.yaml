@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cosign
     app.kubernetes.io/part-of: cli
-  name: cosignw1kx
+  name: cosignfgmz
 spec:
   path: /
   port:
