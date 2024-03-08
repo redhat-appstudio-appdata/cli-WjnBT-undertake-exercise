@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: client-server-re
     app.kubernetes.io/part-of: cli
-  name: client-server-rebygk
+  name: client-server-reohov
 spec:
   path: /
   port:
