@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: client-server-cg
     app.kubernetes.io/part-of: cli
-  name: client-server-cgpjwe
+  name: client-server-cgnvqw
 spec:
   path: /
   port:
