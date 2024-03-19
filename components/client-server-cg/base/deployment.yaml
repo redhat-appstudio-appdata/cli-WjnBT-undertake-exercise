@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: client-server-cg
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/client-server-cg@sha256:eb49058e7b12a2f48e363c09ef438aeb8500e83a4fb91451197f6bc2fe2e61de
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/client-server-cg@sha256:4c940be72e7a9bb5d6ee7437754f58f79206233d98f257b9e4f82746d47b78d5
         name: my-go
         ports:
         - containerPort: 8081
