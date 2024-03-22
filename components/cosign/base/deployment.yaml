@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: cosign
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/cosign@sha256:cbe5f26a90b2a05cb661049bc21a68da98d39cb0be27854de22c893dac21de05
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/cli/cosign@sha256:802ed79d25dc0df6ce7b32c2c43f29bca1a9ef2db62227a712255206cf2aabff
         name: my-go
         ports:
         - containerPort: 8081
